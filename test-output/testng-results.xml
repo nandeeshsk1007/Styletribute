@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-27T12:21:39 IST" name="Default suite" finished-at="2023-09-27T12:21:45 IST" duration-ms="5254">
+    <groups>
+    </groups>
+    <test started-at="2023-09-27T12:21:39 IST" name="Default test" finished-at="2023-09-27T12:21:45 IST" duration-ms="5254">
+      <class name="ErrorProducts.Error">
+        <test-method signature="find()[pri:0, instance:ErrorProducts.Error@19e4653c]" started-at="2023-09-27T12:21:40 IST" name="find" finished-at="2023-09-27T12:21:45 IST" duration-ms="5150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- find -->
+      </class> <!-- ErrorProducts.Error -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
