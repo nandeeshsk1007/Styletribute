@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ErrorProducts.Error">
+      <class name="Shopify.Collections_creation">
         <methods>
-          <include name="find"/>
+          <include name="setup"/>
+          <include name="collection"/>
         </methods>
-      </class> <!-- ErrorProducts.Error -->
+      </class> <!-- Shopify.Collections_creation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -14,7 +14,7 @@ public class Error {
 
 	@Test
 	public void find() throws EncryptedDocumentException, IOException {
-		FileInputStream filein = new FileInputStream("D:\\javanew\\Styletribute\\src\\test\\java\\Ayatana\\boook.xlsx");
+		FileInputStream filein = new FileInputStream("D:\\javanew\\Shopfy.Styletribute\\target\\Styletribute.xlsx");
 		Workbook book = WorkbookFactory.create(filein);
 
 		int row1=0;
@@ -24,17 +24,16 @@ public class Error {
 		String createdp=null;
 
 		ArrayList<String> createdlist = new ArrayList<String>();
-		for(int i=1; i<=3798; i++) {
+		for(int i=1; i<=4210; i++) {
 
-			Cell created = book.getSheet("Sheet9").getRow(row1).getCell(1);
+			Cell created = book.getSheet("Sheet7").getRow(row1).getCell(0);
 			createdp = created.getStringCellValue();
 			createdlist.add(createdp);
 			row1++;
 		}
-		System.out.println("5");
 		
-		for(int j=1; j<=3800; j++) {
-			Cell all = book.getSheet("Sheet9").getRow(row2).getCell(0);
+		for(int j=1; j<=3971; j++) {
+			Cell all = book.getSheet("Sheet7").getRow(row2).getCell(2);
 			allp = all.getStringCellValue();
 			if(createdlist.contains(allp)) {
 				//System.out.println(createdlist.contains(allp)+" - "+allp);
@@ -46,4 +45,3 @@ public class Error {
 		}
 	}
 }
-
